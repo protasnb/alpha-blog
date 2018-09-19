@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body {
+    background-image: url("assets/volly.jpg");
+    background-size: 99%;
+    background-color:transparent;
+    background-position:20% 2%;
+    background-repeat:no-repeat;
+}
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+</style>
+	<title>Welcome to my about webage!</title>
+	<meta charset="utf-8">
+   	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+  <h1 style="color:Green;">About the garden world of technology</h1> 
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>About programming</h3>
+      <p><a href="html_images.asp" target="_blank">About statistics training</a></p>
+      <p></p>
+    </div>
+    <div class="col-sm-4">
+      <h3>About web design</h3>
+      <p><a href="html_images.asp" target="_blank">About web design training</a></p>
+      <p></p>
+    </div>
+    <div class="col-sm-4">
+      <h3>About backend</h3> 
+      <p><a href="html_images.asp" target="_blank">About backend technologies training</a></p>
+      <p></p>
+    </div>
+  </div>
+ <%= link_to 'Home', root_path %>
+</div>
+
+</body>
+</html>
