@@ -1,50 +1,18 @@
-<!DOCTYPE html>
 <html>
 <head>
 <style>
-body {
-    background-image: url("ezunka.jpg");
-    background-size: 99%;
-    background-color:transparent;
-    background-position:20% 2%;
-    background-repeat:no-repeat;
-}
 
 </style>
 	<title>Welcome to my webage!</title>
-	<meta charset="utf-8">
-   	<meta name="viewport" content="width=device-width, initial-scale=1">
-  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </head>
 <body>
-<div class="jumbotron text-center">
-  <h1 style="color:Green;">the garden world of technology</h1> 
+<div class="center jumbotron">
+  <h1>the garden world of ruby</h1> 
+  <%= link_to "Sigh up now", "#",  class: "btn btn-primary btn-lg"%>
 </div>
 
 
-<div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-      <h3>Programming</h3>
-      <p><a href="html_images.asp" target="_blank">Statistics</a></p>
-      <p></p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Web design</h3>
-      <p><a href="html_images.asp" target="_blank">Web design</a></p>
-      <p></p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Backend</h3> 
-      <p><a href="html_images.asp" target="_blank">Backend technologies</a></p>
-      <p></p>
-    </div>
-  </div>
-  <%= link_to 'About', about_path %> |
-  <%= link_to "Articles", articles_path %>
-</div>
 
 </body>
 </html>
