@@ -3,4 +3,8 @@ class PagesController < ApplicationController
   end
   def about
   end
+  def garden
+  end
+  def about_garden
+  end
 end
